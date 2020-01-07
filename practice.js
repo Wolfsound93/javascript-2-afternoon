@@ -16,12 +16,11 @@
 
 //Code here
 let me = {
-  name : "Arthur",
+  name: 'Arthur',
   age: 25
 };
 
-  console.log(me, name);
-
+console.log(me.name);
 
 ////////// PROBLEM 2 //////////
 
@@ -32,14 +31,13 @@ let me = {
 
 //Code here
 let favoriteThings = {
-  band : "Nirvana" , 
-  food : "friedRice" ,
-  person : "kind" ,
-  book : "Harry Potter" ,
-  movie : "Terminator" ,
-  holiday : "chrismas"
-
-}
+  band: 'Nirvana',
+  food: 'friedRice',
+  person: 'kind',
+  book: 'The wolf of wall st',
+  movie: 'Terminator',
+  holiday: 'xmas'
+};
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
@@ -47,8 +45,8 @@ let favoriteThings = {
 */
 
 //Code here
-favoriteThings.car = "Honda";
-favoriteThings.brand = "Pilot";
+favoriteThings.car = 'Honda';
+favoriteThings.brand = 'Pilot';
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
@@ -57,6 +55,7 @@ favoriteThings.brand = "Pilot";
 
 //Code here
 favoriteThings.food = 'Chicken Nuggets';
+favoriteThings.book = 'Harry Potter';
 ////////// PROBLEM 3 //////////
 
 /*
@@ -68,11 +67,9 @@ favoriteThings.food = 'Chicken Nuggets';
 */
 
 //Code here
-let backPack = {
-  
-};
+let backPack = {};
 
-let item = 'firstPocket'
+let item = 'firstPocket';
 backPack.firstPocket = 'chapstick';
 /*
   After you do the above, alert your entire backPack object.
@@ -108,8 +105,7 @@ var user2 = {
 */
 
 //Code Here
-user2.name = 'Bryan G. Smith',
-user2.email = 'bryan.smith@devmounta.in'
+(user2.name = 'Bryan G. Smith'), (user2.email = 'bryan.smith@devmounta.in');
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
 
@@ -128,10 +124,10 @@ let methodCollection = {};
 
 //Code Here
 methodCollection = {
-  alertHello : function() {
+  alertHello: function() {
     alert('hello');
   },
-  logHello : function() {
+  logHello: function() {
     console.log('hello');
   }
 };
@@ -150,14 +146,14 @@ methodCollection = {
 */
 
 //Code Here
-function makePerson(name, birthday,ssn){
-let id = {
-  name, 
-  birthday,
-  ssn
+function makePerson(name, birthday, ssn) {
+  let id = {
+    name,
+    birthday,
+    ssn
+  };
+  return id;
 }
-return id
-};
 ////////// PROBLEM 7 //////////
 
 /*
@@ -166,8 +162,7 @@ return id
 */
 
 //Code Here
-function makeCard(cardNumber, expirationDate, securityCode){
-let creditCard = {
+function makeCard(cardNumber, expirationDate, securityCode) {
+  let creditCard = {};
+  return creditCard;
 }
-return creditCard
-};
